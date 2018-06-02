@@ -1,0 +1,59 @@
+.arrow-down {
+    zoom: .8;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -23px;
+    width: 57px;
+    height: 57px;
+    border-radius: .5rem;
+    display: block;
+    background-image: url(/img/icon.png);
+    background-repeat: no-repeat;
+    z-index: 999;
+    -webkit-animation: opacity 1.2s linear infinite;
+}
+
+@keyframes opacity {
+	0% {
+		-webkit-transform: translate(0,0px)
+	}
+
+	25% {
+		-webkit-transform: translate(0,-3px)
+	}
+
+	50% {
+		-webkit-transform: translate(0,1px)
+	}
+
+	75% {
+		-webkit-transform: translate(0,-1px)
+	}
+
+	100% {
+		-webkit-transform: translate(0,0px)
+	}
+}
+
+@-webkit-keyframes opacity {
+	0% {
+		-webkit-transform: translate(0,0px)
+	}
+
+	25% {
+		-webkit-transform: translate(0,-3px)
+	}
+
+	50% {
+		-webkit-transform: translate(0,1px)
+	}
+
+	75% {
+		-webkit-transform: translate(0,-1px)
+	}
+
+	100% {
+		-webkit-transform: translate(0,0px)
+	}
+}

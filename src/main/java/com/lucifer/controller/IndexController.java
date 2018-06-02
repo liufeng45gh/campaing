@@ -18,6 +18,6 @@ public class IndexController {
 
     @RequestMapping("/test")
     public String test(){
-        return  "redirect: /swiper/demos/090-vertical.html";
+        return  "redirect:/swiper/demos/090-vertical.html";
     }
 }
