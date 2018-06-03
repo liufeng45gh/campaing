@@ -28,4 +28,6 @@ public class IndexController {
         request.setAttribute("independent",true);
         return "5-place";
     }
+
+
 }
