@@ -1,5 +1,4 @@
 
-<body>
 
 <#if independent>
 <link rel="stylesheet" href="/css/mobile.css"/>

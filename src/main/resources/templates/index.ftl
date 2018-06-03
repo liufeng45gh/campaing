@@ -18,7 +18,9 @@
 <!-- Swiper -->
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">
+            <#include "1-page.ftl">
+        </div>
         <div class="swiper-slide">Slide 2</div>
         <div class="swiper-slide">Slide 3</div>
         <div class="swiper-slide">Slide 4</div>
