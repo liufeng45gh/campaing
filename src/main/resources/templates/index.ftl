@@ -8,7 +8,10 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="/swiper/dist/css/swiper.min.css"/>
     <link rel="stylesheet" href="/css/mobile.css"/>
-
+    <script  src="/js/jquery-3.1.1.js"></script>
+    <script  type="text/javascript" src="/layer/layer.js"></script>
+    <!-- Swiper JS -->
+    <script src="/swiper/dist/js/swiper.min.js"></script>
 
 </head>
 <body>
@@ -35,8 +38,8 @@
     </div>
 </div>
 
-<!-- Swiper JS -->
-<script src="/swiper/dist/js/swiper.min.js"></script>
+
+
 
 <!-- Initialize Swiper -->
 <script>
@@ -48,5 +51,7 @@
       },
     });
   </script>
+
+<script src="/js/campaign.js"></script>
 </body>
 </html>

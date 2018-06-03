@@ -6,7 +6,8 @@ a,img{border:0;text-decoration:none;}
 
 .map-service{position:relative;background-size:100%;background:url(/img/map_balck_whole_bg.jpg) center no-repeat}
 //.map-service-right{margin-left:1.46rem;padding-top:1.78rem}
-.china-map{width:26.71428rem;height:22.071rem;background:url(/img/map_black_bg.png) center no-repeat;position:relative;background-size:100%;}
+.china-map-background{width:23.375rem;height:19.3125rem;background:url(/img/map_black_bg.png) center no-repeat;position:relative;background-size:100%;opacity: 0.4; }
+.china-map{width:23.375rem;height:19.3125rem;position:relative;position: absolute; top:0px;}
 .region-list{position:absolute;left:0;top:0}
 
 @-webkit-keyframes warn{
@@ -25,7 +26,20 @@ a,img{border:0;text-decoration:none;}
 0%{-webkit-transform:scale(0);-moz-transform:scale(0);-o-transform:scale(0);transform:scale(0);opacity:1}
 100%{-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);transform:scale(1);opacity:0}
 }
-.area-box .dot{position:absolute;left:0;width:10px;height:10px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;background:#a2a9b4;opacity:1;filter:alpha(opacity=100)}
+.area-box .dot{
+    position:absolute;
+    left:0;
+    width:10px;
+    height:10px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background:#a2a9b4;
+    opacity:1;
+    filter:alpha(opacity=100);
+    margin-top: 1.25rem;
+    margin-left: 0.05rem;
+    }
 .area-box .pulse{position:absolute;top:-28px;left:-28px;height:66px;width:66px;border:2px solid #b7b7b7;-webkit-border-radius:48px;-moz-border-radius:48px;border-radius:48px;-webkit-box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;-moz-box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;opacity:.12;filter:alpha(opacity=0);-webkit-animation:warn 2s ease-out both;-moz-animation:warn 2s ease-out both;-o-animation:warn 2s ease-out both;animation:warn 2s ease-out both;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;animation-iteration-count:infinite;background:0 0}
 .area-box .delay-01{-webkit-animation-delay:0;-moz-animation-delay:0;-o-animation-delay:0;animation-delay:0}
 .area-box .delay-02{-webkit-animation-delay:.4s;-moz-animation-delay:.4s;-o-animation-delay:.4s;animation-delay:.4s}
@@ -38,29 +52,63 @@ a,img{border:0;text-decoration:none;}
 .area-box .delay-09{-webkit-animation-delay:-.8s;-moz-animation-delay:-.8s;-o-animation-delay:-.8s;animation-delay:-.8s}
 .area-box .delay-10{-webkit-animation-delay:-1.2s;-moz-animation-delay:-1.2s;-o-animation-delay:-1.2s;animation-delay:-1.2s}
 .area-box .delay-11{-webkit-animation-delay:4s;-moz-animation-delay:4s;-o-animation-delay:4s;animation-delay:4s}
-.region-list.active .area-box .dot{background:#009fd9}
+.region-list.active .area-box .dot{
+    background:#009fd9;
+    margin-top: 1.25rem;
+    margin-left: 0.05rem;
+}
 .region-list.active .area-box .pulse{border-color:#009fd9;top:-39px;left:-39px;height:88px;width:88px;-webkit-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;-moz-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset}
-.region-list.waite .area-box .dot{background:#f90}
+.region-list.waite .area-box .dot{
+    background:#f90;
+    margin-top: 1.25rem;
+    margin-left: 0.05rem;
+}
 .region-list.waite .area-box .pulse{border-color:#f90}
 .show-regin{position:absolute;left:2px;height:0;top:0;width:11px;opacity:0;-o-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
-.online-node .show-regin,.region-list:hover .show-regin,.underline-node .show-regin,.waite-node .show-regin{height:127px;opacity:1}
+.online-node .show-regin,.region-list:hover .show-regin,.underline-node .show-regin,.waite-node .show-regin{
+    //height:127px;
+    opacity:1
+}
 .show-regin span{width:80px;position:absolute;left:8px;top:-11px;padding:6px 10px;font-size:14px;color:#ccc;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;text-align:center;white-space:nowrap;}
 .postition-10 .show-regin span{left:0}
 .postition-6 .show-regin span{left:-72px}
-.area-box{z-index:77}
+.area-box{
+    z-index: 77;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: -1.2rem;
+    margin-left: -1.2rem;
+}
 .show-regin{z-index:66}
-.region-list.active .show-regin span{position:relative;color:#ccc}
-.region-list.waite .show-regin span{color:#ccc}
+.region-list.active .show-regin span{
+    position:relative;
+    color:#ccc;
+    font-size: 0.6rem;
+}
+.region-list.waite .show-regin span{
+    color:#ccc;
+    font-size: 0.6rem;
+    text-align: left;
+}
 .postition-1{left:10.785rem;top:11rem}
-.postition-2{left:14.321rem;top:14.3928rem}
+.postition-2{left:14.321rem;top:10.3928rem}
 .postition-3{left:12.7857rem;top:18.428rem}
-.postition-4{left:16.8928rem;top:12.4285rem}
-.postition-5{left:18.7857rem;top:14.0714rem}
+.postition-4{
+    left: 15.1928rem;
+    top: 18.7285rem;
+}
+.postition-5{
+    left: 15.7857rem;
+    top: 14.0714rem;
+}
 .postition-6{left:18.7857rem; top:18.3928rem}
 .postition-7{left:23.2857rem;top:7.1428rem}
 .postition-7.region-list.active .area-box .pulse{top:-50px;left:-50px;width:110px;height:110px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
-.postition-8{left:19.9642rem; top:8.1785rem}
-.postition-9{left:22.75rem;top:11.3214rem}
+.postition-8{left:17.16875rem; top:7.5785rem}
+.postition-9{
+    left: 9.75rem;
+    top: 13.3214rem;
+ }
 .postition-9.region-list.active .area-box .pulse{top:-50px;left:-50px;width:110px;height:110px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
 .postition-10{left:19.7857rem;top:19.25rem}
 .postition-11{left:21.5714rem;top:10.7142rem}
