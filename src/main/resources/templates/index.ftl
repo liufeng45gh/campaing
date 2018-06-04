@@ -23,9 +23,15 @@
         <div class="swiper-slide">
             <#include "1-page.ftl">
         </div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">
+            <#include "2-page.ftl">
+        </div>
+        <div class="swiper-slide">
+            <#include "3-page.ftl">
+        </div>
+        <div class="swiper-slide">
+            <#include "4-page.ftl">
+        </div>
         <div class="swiper-slide">
             <#include "5-place.ftl">
         </div>

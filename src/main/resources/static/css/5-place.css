@@ -1,12 +1,44 @@
+.page-bg-5{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.img-bg-5{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+.title-5{
+     width: 21rem;
+     position: absolute;
+     left: 2.6rem;
+     top: 6.4rem;
+ }
+
+ .img-map-5{
+   width: 24rem;
+   position: absolute;
+   left: 1.0rem;
+   top: 14.4rem;
+ }
+
+
 a,img{border:0;text-decoration:none;}
 
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
 *html .clearfix{height:1%}
 
 
-.map-service{position:relative;background-size:100%;background:url(/img/map_balck_whole_bg.jpg) center no-repeat}
-//.map-service-right{margin-left:1.46rem;padding-top:1.78rem}
-.china-map-background{width:23.375rem;height:19.3125rem;background:url(/img/map_black_bg.png) center no-repeat;position:relative;background-size:100%;opacity: 0.4; }
+
+.map-service-right{
+    margin-left: 1.2rem;
+    margin-top: 14.78rem;
+    position: relative;
+}
+
 .china-map{width:23.375rem;height:19.3125rem;position:relative;position: absolute; top:0px;}
 .region-list{position:absolute;left:0;top:0}
 
@@ -29,8 +61,8 @@ a,img{border:0;text-decoration:none;}
 .area-box .dot{
     position:absolute;
     left:0;
-    width:10px;
-    height:10px;
+    width: 0.5rem;
+    height: 0.5rem;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
     border-radius:50%;
@@ -40,7 +72,30 @@ a,img{border:0;text-decoration:none;}
     margin-top: 1.25rem;
     margin-left: 0.05rem;
     }
-.area-box .pulse{position:absolute;top:-28px;left:-28px;height:66px;width:66px;border:2px solid #b7b7b7;-webkit-border-radius:48px;-moz-border-radius:48px;border-radius:48px;-webkit-box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;-moz-box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;opacity:.12;filter:alpha(opacity=0);-webkit-animation:warn 2s ease-out both;-moz-animation:warn 2s ease-out both;-o-animation:warn 2s ease-out both;animation:warn 2s ease-out both;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;-o-animation-iteration-count:infinite;animation-iteration-count:infinite;background:0 0}
+.area-box .pulse{
+    position:absolute;
+   top: -1.45rem;
+   left: -1.5rem;
+    height:66px;
+    width:66px;
+    border: 0.5rem solid #b7b7b7;
+    -webkit-border-radius:48px;
+    -moz-border-radius:48px;
+    border-radius:48px;
+    -webkit-box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;
+    -moz-box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;
+    box-shadow:0 0 4px #82878f,0 0 10px #82878f inset;
+    opacity:.12;filter:alpha(opacity=0);
+    -webkit-animation:warn 2s ease-out both;
+    -moz-animation:warn 2s ease-out both;
+    -o-animation:warn 2s ease-out both;
+    animation:warn 2s ease-out both;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    animation-iteration-count:infinite;
+    background:0 0;
+}
 .area-box .delay-01{-webkit-animation-delay:0;-moz-animation-delay:0;-o-animation-delay:0;animation-delay:0}
 .area-box .delay-02{-webkit-animation-delay:.4s;-moz-animation-delay:.4s;-o-animation-delay:.4s;animation-delay:.4s}
 .area-box .delay-03{-webkit-animation-delay:.8s;-moz-animation-delay:.8s;-o-animation-delay:.8s;animation-delay:.8s}
@@ -57,7 +112,15 @@ a,img{border:0;text-decoration:none;}
     margin-top: 1.25rem;
     margin-left: 0.05rem;
 }
-.region-list.active .area-box .pulse{border-color:#009fd9;top:-39px;left:-39px;height:88px;width:88px;-webkit-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;-moz-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset}
+.region-list.active .area-box .pulse{
+    border-color:#009fd9;
+    top: -1.90rem;
+    left: -1.98rem;
+    height:88px;width:88px;
+    -webkit-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;
+    -moz-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;
+    box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset
+ }
 .region-list.waite .area-box .dot{
     background:#f90;
     margin-top: 1.25rem;
@@ -82,12 +145,12 @@ a,img{border:0;text-decoration:none;}
 .show-regin{z-index:66}
 .region-list.active .show-regin span{
     position:relative;
-    color:#ccc;
-    font-size: 0.6rem;
+    color: white;;
+    font-size: 0.7rem;
 }
 .region-list.waite .show-regin span{
-    color:#ccc;
-    font-size: 0.6rem;
+    color:white;
+    font-size: 0.7rem;
     text-align: left;
 }
 .postition-1{left:10.785rem;top:11rem}
