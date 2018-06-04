@@ -12,6 +12,7 @@
     <script  type="text/javascript" src="/layer/layer.js"></script>
     <!-- Swiper JS -->
     <script src="/swiper/dist/js/swiper.min.js"></script>
+    <script  type="text/javascript" src="/js/wx-share.js?version=1.0"></script>
 
 </head>
 <body>

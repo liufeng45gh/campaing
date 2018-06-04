@@ -1,4 +1,4 @@
-var shareImgUrl = "http://osi1i0y6i.bkt.clouddn.com/share-logo.jpg";
+var shareImgUrl = "http://campaign.dbdbd.cn/img/share-icon.png";
 
 var lineLink = window.location.href;
 if(lineLink.indexOf("?") != -1)
@@ -9,9 +9,9 @@ if(lineLink.indexOf("?") != -1)
 //location.href=webHref.substring(0,pos);
 //var lineLink = "http://vote.dbdbd.cn/appreciate/index";
 //var lineLink = webHref.substring(0,pos);
-var shareContent = "小伙伴们快来投票啦!";
-var shareTitle = "中国石油第二届新媒体内容创作大赛";
-var appid = "wx7933d55ea3872f4d";
+var shareContent = "今天，昆仑能源向您发出邀请!";
+var shareTitle = "昆仑能源2018企业公众开放日6月16日正式开启!";
+var appid = "wx41dbe3ee3f386699";
   
 $(document).ready(function() {
     var data_send = {};
