@@ -9,7 +9,7 @@ if(lineLink.indexOf("?") != -1)
 //location.href=webHref.substring(0,pos);
 //var lineLink = "http://vote.dbdbd.cn/appreciate/index";
 //var lineLink = webHref.substring(0,pos);
-var shareContent = "昆仑能源2018企业公众开放日6月16日正式开启!";
+var shareContent = "昆仑能源2018企业公众开放日6月15日正式开启!";
 var shareTitle = "今天，昆仑能源向您发出邀请!";
 var appid = "wx41dbe3ee3f386699";
   
