@@ -14,11 +14,7 @@
 <img class="praise-5" src="/img/page6/praise.png"/>
 
 <div class="praise-text-5">为昆仑能源点赞</div>
-<div class="map-service-right">
-    <div class="china-map-background">
-    </div>
-    <div class="china-map">
-
+<div class="map-service">
         <div class="region-list active postition-2 online-node">
             <div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
                 <span class="pulse delay-05"></span>
@@ -61,7 +57,7 @@
         </div>
 
 
-    </div>
+
 </div>
 </div>
 

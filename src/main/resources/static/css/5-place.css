@@ -52,13 +52,13 @@ a,img{border:0;text-decoration:none;}
 
 
 
-.map-service-right{
+.map-service{
     margin-left: 1.2rem;
     margin-top: 11.78rem;
     position: relative;
 }
 
-.china-map{width:23.375rem;height:19.3125rem;position:relative;position: absolute; top:0px;}
+
 .region-list{position:absolute;left:0;top:0}
 
 @-webkit-keyframes warn{
@@ -88,16 +88,14 @@ a,img{border:0;text-decoration:none;}
     background:#a2a9b4;
     opacity:1;
     filter:alpha(opacity=100);
-    margin-top: 1.25rem;
-    margin-left: 0.05rem;
     }
 .area-box .pulse{
     position:absolute;
-     top: -2.35rem;
-     left: -2.3rem;
+    top: -37px;
+    left: -37px;
     height:66px;
     width:66px;
-    border: 0.5rem solid #b7b7b7;
+    border: 8px solid #b7b7b7;
     -webkit-border-radius:48px;
     -moz-border-radius:48px;
     border-radius:48px;
@@ -128,22 +126,19 @@ a,img{border:0;text-decoration:none;}
 .area-box .delay-11{-webkit-animation-delay:4s;-moz-animation-delay:4s;-o-animation-delay:4s;animation-delay:4s}
 .region-list.active .area-box .dot{
     background:#009fd9;
-    margin-top: 1.25rem;
-    margin-left: 0.05rem;
 }
 .region-list.active .area-box .pulse{
     border-color:#009fd9;
-    top: -3.00rem;
-    left: -3.10rem;
-    height:88px;width:88px;
+     top: -48px;
+     left: -48px;
+    height:88px;
+    width:88px;
     -webkit-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;
     -moz-box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset;
     box-shadow:0 0 12px #0080d9,0 0 20px #0080d9 inset
  }
 .region-list.waite .area-box .dot{
     background:#f90;
-    margin-top: 1.25rem;
-    margin-left: 0.05rem;
 }
 .region-list.waite .area-box .pulse{border-color:#f90}
 .show-regin{position:absolute;left:2px;height:0;top:0;width:11px;opacity:0;-o-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
@@ -158,8 +153,6 @@ a,img{border:0;text-decoration:none;}
     z-index: 77;
     width: 2.4rem;
     height: 2.4rem;
-    margin-top: -1.2rem;
-    margin-left: -1.2rem;
 }
 .show-regin{z-index:66}
 .region-list.active .show-regin span{
