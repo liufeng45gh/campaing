@@ -58,7 +58,7 @@
 
 </div>
 
-<div class="btn-8" ontouchend="openUrl('abc')" >点我</div>
+<div class="btn-8" onclick="openUrl('abc')" >点我</div>
 </div>
 
 
