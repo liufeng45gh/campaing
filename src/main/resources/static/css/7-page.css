@@ -1,0 +1,51 @@
+.page-bg-7{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.img-bg-7{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+.img-bg-7-border{
+    width: 24rem;
+     position: absolute;
+     left: 1.0rem;
+     top: 1.4rem;
+ }
+
+ .img-invite-7{
+    width: 12rem;
+    position: absolute;
+    left: 7.0rem;
+    top: 4.4rem;
+ }
+
+.img-line-7-1{
+    width: 14rem;
+    position: absolute;
+    left: 6.0rem;
+    top: 13.4rem;
+}
+
+
+
+
+
+.img-submit-7{
+    width: 9.8rem;
+    position: absolute;
+    left: 8.0rem;
+    top: 30.4rem;
+}
+
+.img-line-7-2{
+    width: 14rem;
+    position: absolute;
+    left: 6.0rem;
+    top: 36.4rem;
+}

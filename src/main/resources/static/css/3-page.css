@@ -10,10 +10,16 @@
     position: absolute;
     left: 0px;
 }
+.title-3{
+      width: 15rem;
+      position: absolute;
+      left: 6.0rem;
+      top: 2.1rem;
+}
 
 .font-3{
     width: 22rem;
     position: absolute;
     left: 2.3rem;
-    top: 7.4rem;
+    bottom: 3.4rem;
 }

@@ -15,14 +15,33 @@
      width: 21rem;
      position: absolute;
      left: 2.6rem;
-     top: 6.4rem;
+     top: 3.4rem;
  }
 
  .img-map-5{
    width: 24rem;
    position: absolute;
    left: 1.0rem;
-   top: 14.4rem;
+   top: 11.4rem;
+ }
+
+ .praise-5{
+     width: 4.2rem;
+     position: absolute;
+     left: 10.5rem;
+     top: 36.4rem;
+ }
+
+ .praise-text-5{
+     color: white;
+     height: 0.5rem;
+     font-size: 1.13rem;
+     position: absolute;
+     left: 0rem;
+     top: 41.7rem;
+     width: 100%;
+     text-align: center;
+     font-weight: bold;
  }
 
 
@@ -35,7 +54,7 @@ a,img{border:0;text-decoration:none;}
 
 .map-service-right{
     margin-left: 1.2rem;
-    margin-top: 14.78rem;
+    margin-top: 11.78rem;
     position: relative;
 }
 

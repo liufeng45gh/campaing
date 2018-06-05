@@ -1,0 +1,47 @@
+.page-bg-6{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.img-bg-6{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+.title-6{
+   width: 18rem;
+   position: absolute;
+   left: 4.3rem;
+    top: 5.4rem;
+ }
+
+.font-6{
+    width: 23rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 11.4rem;
+}
+.praise-6{
+    width: 4.2rem;
+    position: absolute;
+    left: 10.5rem;
+    top: 36.4rem;
+}
+
+.praise-text-6{
+    color: white;
+    height: 0.5rem;
+    font-size: 1.13rem;
+    position: absolute;
+    left: 0rem;
+    top: 41.7rem;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+

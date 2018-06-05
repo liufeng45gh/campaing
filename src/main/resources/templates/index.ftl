@@ -35,11 +35,13 @@
         <div class="swiper-slide">
             <#include "5-place.ftl">
         </div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
+        <div class="swiper-slide">
+            <#include "6-page.ftl">
+        </div>
+        <div class="swiper-slide">
+            <#include "7-page.ftl">
+        </div>
+
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
