@@ -42,9 +42,9 @@
         </div>
 
         <div class="region-list active postition-8 online-node">
-            <div class="area-box"  ontouchend="openUrl('abc')">
+            <div class="area-box"  >
                 <span class="dot"></span>
-                <span class="pulse delay-06"  ontouchend="openUrl('abc')" ></span>
+                <span class="pulse delay-06"   ></span>
                 <span class="pulse delay-05"></span>
                 <span class="pulse delay-04"></span></div>
             <div class="show-regin"><span>气贯雄安新区</span></div>
@@ -56,9 +56,9 @@
             <div class="show-regin"><span>推动气化长江</span></div>
         </div>
 
-
-
 </div>
+
+<div class="btn-8" ontouchend="openUrl('abc')" >点我</div>
 </div>
 
 
