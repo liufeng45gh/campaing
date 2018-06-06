@@ -58,7 +58,11 @@
 
 </div>
 
-<div class="btn-8" onclick="openUrl('abc')" >点我</div>
+<div class="btn-8" onclick="openUrl('/point/1-xiongan.html')" >点我</div>
+<div class="btn-2" onclick="openUrl('/point/5-sczl.html')" >点我</div>
+<div class="btn-4" onclick="openUrl('/point/3-boao.html')" >点我</div>
+<div class="btn-5" onclick="openUrl('/point/4-hunan.html')" >点我</div>
+<div class="btn-9" onclick="openUrl('/point/2-changjiang.html')" >点我</div>
 </div>
 
 

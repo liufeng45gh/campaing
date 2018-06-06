@@ -167,7 +167,10 @@ a,img{border:0;text-decoration:none;}
 }
 .postition-1{left:10.785rem;top:11rem}
 .postition-2{left:14.321rem;top:10.3928rem}
-.postition-3{left:12.7857rem;top:18.428rem}
+.postition-3{
+    left: 2.7857rem;
+    top: 10.428rem;
+    }
 .postition-4{
     left: 15.1928rem;
     top: 18.7285rem;
@@ -176,8 +179,14 @@ a,img{border:0;text-decoration:none;}
     left: 15.7857rem;
     top: 14.0714rem;
 }
-.postition-6{left:18.7857rem; top:18.3928rem}
-.postition-7{left:23.2857rem;top:7.1428rem}
+.postition-6{
+    left: 8.7857rem;
+    top: 2.3928rem;
+}
+.postition-7{
+    left: 14.9rem;
+    top: 1.1428rem;
+}
 .postition-7.region-list.active .area-box .pulse{top:-50px;left:-50px;width:110px;height:110px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}
 .postition-8{left:17.16875rem; top:7.5785rem}
 .postition-9{
@@ -191,8 +200,15 @@ a,img{border:0;text-decoration:none;}
     -moz-border-radius:50%;
     border-radius:50%;
  }
-.postition-10{left:19.7857rem;top:19.25rem}
-.postition-11{left:21.5714rem;top:10.7142rem}
+.postition-10{
+    left: 17.7857rem;
+    top: 5.55rem;
+  }
+
+.postition-11{
+    left: 17.5714rem;
+    top: 10.7142rem;
+}
 .postition-13{left:14.5357rem;top:8.9285rem}
 .douhao{width:0}
 
@@ -202,6 +218,46 @@ a,img{border:0;text-decoration:none;}
     position: absolute;
     top: 17.5rem;
     left: 16.6rem;
+    opacity: 0;
+    z-index: 100;
+}
+
+.btn-2{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 20.3rem;
+    left: 13.7rem;
+    opacity: 0;
+    z-index: 100;
+}
+
+.btn-4{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 28.9rem;
+    left: 14.5rem;
+    opacity: 0;
+    z-index: 100;
+}
+
+.btn-5{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 24.0rem;
+    left: 15.0rem;
+    opacity: 0;
+    z-index: 100;
+}
+
+.btn-9{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+      top: 23.5rem;
+      left: 9.0rem;
     opacity: 0;
     z-index: 100;
 }

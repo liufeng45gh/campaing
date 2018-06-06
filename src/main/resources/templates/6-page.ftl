@@ -7,6 +7,53 @@
 
 <img class="font-6" src="/img/page6/font.png"/>
 
+
+<div class="map-service">
+    <div class="region-list active postition-3 online-node">
+        <div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
+            <span class="pulse delay-05"></span>
+            <span class="pulse delay-04"></span></div>
+        <div class="show-regin"><span>点燃城市之光</span></div>
+    </div>
+
+    <div class="region-list waite postition-6 waite-node">
+        <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
+            <span class="pulse delay-02"></span>
+        </div>
+        <div class="show-regin"><span>合作气电开发</span></div>
+    </div>
+    <div class="region-list waite postition-7 waite-node">
+        <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
+            <span class="pulse delay-02"></span>
+        </div>
+        <div class="show-regin"><span>引领科技创新</span></div>
+    </div>
+
+    <div class="region-list active postition-10 online-node">
+        <div class="area-box"  >
+            <span class="dot"></span>
+            <span class="pulse delay-06"   ></span>
+            <span class="pulse delay-05"></span>
+            <span class="pulse delay-04"></span></div>
+        <div class="show-regin"><span>架起海上金桥</span></div>
+    </div>
+    <div class="region-list active postition-11 online-node">
+        <div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
+            <span class="pulse delay-09"></span>
+            <span class="pulse delay-08"></span></div>
+        <div class="show-regin"><span>闪耀资本市场</span></div>
+    </div>
+
+</div>
+
+<div class="btn-8" onclick="openUrl('/point/1-xiongan.html')" >点我</div>
+<div class="btn-2" onclick="openUrl('/point/5-sczl.html')" >点我</div>
+<div class="btn-4" onclick="openUrl('/point/3-boao.html')" >点我</div>
+<div class="btn-5" onclick="openUrl('/point/4-hunan.html')" >点我</div>
+<div class="btn-9" onclick="openUrl('/point/2-changjiang.html')" >点我</div>
+
+
+
 <img class="praise-6" src="/img/page6/praise.png"/>
 
 <div class="praise-text-6">为昆仑能源点赞</div>
