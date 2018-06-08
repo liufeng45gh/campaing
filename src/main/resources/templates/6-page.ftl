@@ -46,15 +46,15 @@
 
 </div>
 
-<div class="btn-8" onclick="openUrl('/point/1-xiongan.html')" >点我</div>
-<div class="btn-2" onclick="openUrl('/point/5-sczl.html')" >点我</div>
-<div class="btn-4" onclick="openUrl('/point/3-boao.html')" >点我</div>
-<div class="btn-5" onclick="openUrl('/point/4-hunan.html')" >点我</div>
-<div class="btn-9" onclick="openUrl('/point/2-changjiang.html')" >点我</div>
+<div class="btn-3" onclick="openUrl('/point/7-guang.html')" >点我</div>
+<div class="btn-6" onclick="openUrl('/point/6-jinqiao.html')" >点我</div>
+<div class="btn-7" onclick="openUrl('/point/8-chuangxin.html')" >点我</div>
+<div class="btn-10" onclick="openUrl('/point/6-jinqiao.html')" >点我</div>
+<div class="btn-11" onclick="openUrl('/point/10-ziben.html')" >点我</div>
 
 
 
-<img class="praise-6" src="/img/page6/praise.png"/>
+<img class="praise-6" src="/img/page6/praise.png" onclick="submitPraise();"/>
 
 <div class="praise-text-6">为昆仑能源点赞</div>
 

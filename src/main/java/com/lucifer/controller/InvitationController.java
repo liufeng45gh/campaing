@@ -12,9 +12,9 @@ public class InvitationController {
     @Autowired
     InvitationMapper invitationMapper;
 
-    @RequestMapping(value = "invitation/save")
+    @RequestMapping(value = "/invitation/save")
     public Invitation save(Invitation invitation){
-
+        invitationMapper.save(invitation);
         return invitation;
     }
 }

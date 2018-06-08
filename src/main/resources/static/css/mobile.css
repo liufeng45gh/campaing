@@ -158,3 +158,17 @@ body {
 		-webkit-transform: translate(0,0px)
 	}
 }
+
+.hart{
+
+    position: absolute;
+
+    left: 50%;
+    margin-left: -23px;
+    width: 57px;
+    height: 57px;
+    border-radius: .5rem;
+    display: block;
+
+    z-index: 999;
+}

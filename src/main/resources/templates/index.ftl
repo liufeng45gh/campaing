@@ -14,6 +14,7 @@
     <script src="/swiper/dist/js/swiper.min.js"></script>
     <script  type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
     <script  type="text/javascript" src="/js/wx-share.js?version=1.0"></script>
+    <script src="/js/common.js"></script>
 
 </head>
 <body>
@@ -45,9 +46,8 @@
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
-    <div class="arrow-down" id="nextPage">
-
-    </div>
+    <div class="arrow-down" id="nextPage"></div>
+    <img class="hart" src="/img/hart.png"></img>
 </div>
 
 
@@ -65,5 +65,7 @@
   </script>
 
 <script src="/js/campaign.js"></script>
+
+
 </body>
 </html>

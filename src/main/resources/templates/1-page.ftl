@@ -8,7 +8,7 @@
     <img class="praise-bg" src="/img/page1/praise-bg.png"/>
 
 
-    <div class="praise-div">已有20078人为昆仑能源开放日点赞</div>
+    <div class="praise-div" id="praise-msg"></div>
 
     <img class="map-1" src="/img/page1/map.png"/>
 
