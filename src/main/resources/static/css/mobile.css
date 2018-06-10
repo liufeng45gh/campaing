@@ -173,6 +173,17 @@ body {
     z-index: 999;
 }
 
+.layui-layer .layui-layer-setwin .layui-layer-close2 {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    background-position: -149px -31px;
+}
+
+
 #music {
     position: absolute;
     width: 2.48rem;
@@ -201,13 +212,3 @@ body {
 }
 
 
-.layui-layer .layui-layer-setwin .layui-layer-close2 {
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    width: 30px;
-    height: 30px;
-    margin-left: 0;
-    background-position: -149px -31px;
-    _display: none;
-}

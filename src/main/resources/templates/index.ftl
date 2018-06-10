@@ -7,7 +7,7 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="/swiper/dist/css/swiper.min.css"/>
-    <link rel="stylesheet" href="/css/mobile.css"/>
+    <link rel="stylesheet" href="/css/mobile.css?v=1.0"/>
     <script  src="/js/jquery-3.1.1.js"></script>
     <script  type="text/javascript" src="/layer/layer.js"></script>
     <!-- Swiper JS -->
