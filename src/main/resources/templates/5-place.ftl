@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" href="/css/5-place.css?v=1.0"/>
 <div  class="page-bg-5">
-<img class="img-bg-5" src="/img/page3/bg.jpg"/>
+<img class="img-bg-5" src="/img/page5/bg.jpg"/>
 
 <img class="img-map-5" src="/img/page5/map.png"/>
 

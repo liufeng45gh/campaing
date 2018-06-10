@@ -13,14 +13,14 @@
         <div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
             <span class="pulse delay-05"></span>
             <span class="pulse delay-04"></span></div>
-        <div class="show-regin"><span>点燃城市之光</span></div>
+        <div class="show-regin"><span>助推气电开发</span></div>
     </div>
 
     <div class="region-list waite postition-6 waite-node">
         <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
             <span class="pulse delay-02"></span>
         </div>
-        <div class="show-regin"><span>助推气电开发</span></div>
+        <div class="show-regin"><span>点燃城市之光</span></div>
     </div>
     <div class="region-list waite postition-7 waite-node">
         <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
@@ -46,8 +46,8 @@
 
 </div>
 
-<div class="btn-3" onclick="openUrl('/point/7-guang.html')" >点我</div>
-<div class="btn-6" onclick="openUrl('/point/6-jinqiao.html')" >点我</div>
+<div class="btn-3" onclick="openUrl('/point/6-jinqiao.html')" >点我</div>
+<div class="btn-6" onclick="openUrl('/point/7-guang.html')" >点我</div>
 <div class="btn-7" onclick="openUrl('/point/8-chuangxin.html')" >点我</div>
 <div class="btn-10" onclick="openUrl('/point/6-jinqiao.html')" >点我</div>
 <div class="btn-11" onclick="openUrl('/point/10-ziben.html')" >点我</div>
