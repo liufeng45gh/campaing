@@ -156,13 +156,18 @@ a,img{border:0;text-decoration:none;}
 }
 .show-regin{z-index:66}
 .region-list.active .show-regin span{
-    position:relative;
-    color: white;;
-    font-size: 0.7rem;
+    position: relative;
+    color: #e65100;
+    font-size: 0.9rem;
+    -webkit-text-stroke: 0.005rem white;
+    font-weight: bold;
 }
 .region-list.waite .show-regin span{
-    color:white;
-    font-size: 0.7rem;
+     position: relative;
+    color: #e65100;
+    font-size: 0.9rem;
+    -webkit-text-stroke: 0.005rem white;
+    font-weight: bold;
     text-align: left;
 }
 .postition-1{left:10.785rem;top:11rem}

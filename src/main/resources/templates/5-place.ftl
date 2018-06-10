@@ -21,7 +21,7 @@
             <div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
                 <span class="pulse delay-05"></span>
                 <span class="pulse delay-04"></span></div>
-            <div class="show-regin"><span>助力丝绸之路</span></div>
+            <div class="show-regin"><span>气贯物流通道</span></div>
         </div>
         <!--
         <div class="region-list postition-3">
@@ -34,13 +34,13 @@
             <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
                 <span class="pulse delay-02"></span>
             </div>
-            <div class="show-regin"><span>同步博鳌时间</span></div>
+            <div class="show-regin"><span>助力生态海南</span></div>
         </div>
         <div class="region-list waite postition-5 waite-node">
             <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
                 <span class="pulse delay-02"></span>
             </div>
-            <div class="show-regin"><span>实施气化湖南</span></div>
+            <div class="show-regin"><span>共建战略支线</span></div>
         </div>
 
         <div class="region-list active postition-8 online-node">
@@ -49,7 +49,7 @@
                 <span class="pulse delay-06"   ></span>
                 <span class="pulse delay-05"></span>
                 <span class="pulse delay-04"></span></div>
-            <div class="show-regin"><span>气贯雄安新区</span></div>
+            <div class="show-regin"><span>擎画美丽雄安</span></div>
         </div>
         <div class="region-list active postition-9 online-node">
             <div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>
@@ -60,7 +60,7 @@
 
 </div>
 
-<div class="btn-8" onclick="openUrl('/point/1-xiongan.html')" >点我</div>
+<div class="btn-8" onclick="openUrl('/point/1-xiongan.html?v=1.1')" >点我</div>
 <div class="btn-2" onclick="openUrl('/point/5-sczl.html')" >点我</div>
 <div class="btn-4" onclick="openUrl('/point/3-boao.html')" >点我</div>
 <div class="btn-5" onclick="openUrl('/point/4-hunan.html')" >点我</div>

@@ -20,7 +20,7 @@
         <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
             <span class="pulse delay-02"></span>
         </div>
-        <div class="show-regin"><span>合作气电开发</span></div>
+        <div class="show-regin"><span>助推气电开发</span></div>
     </div>
     <div class="region-list waite postition-7 waite-node">
         <div class="area-box"><span class="dot"></span><span class="pulse delay-01"></span>
@@ -35,7 +35,7 @@
             <span class="pulse delay-06"   ></span>
             <span class="pulse delay-05"></span>
             <span class="pulse delay-04"></span></div>
-        <div class="show-regin"><span>架起海上金桥</span></div>
+        <div class="show-regin"><span>联通海上通道</span></div>
     </div>
     <div class="region-list active postition-11 online-node">
         <div class="area-box"><span class="dot"></span><span class="pulse delay-10"></span>

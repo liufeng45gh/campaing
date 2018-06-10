@@ -81,17 +81,35 @@ body {
 
 .img-top{
     width: 100%;
+    height: 100%;
 }
 
 .title{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.7rem;
     margin-top: 1.2rem;
     margin-bottom: 1.0rem;
+    position: absolute;
+    top: 13rem;
+    color: white;
+    width: 100%;
+    font-weight: bold;
 }
 
 .content{
     font-size: 1.25rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    top: 21rem;
+    color: #CCCCCC;
+    line-height: 2rem;
 }
+
+.line-point{
+    position: absolute;
+    top: 18.7rem;
+    left: 3rem;
+    width: 20rem;
+}
+
