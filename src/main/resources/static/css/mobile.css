@@ -172,3 +172,17 @@ body {
 
     z-index: 999;
 }
+
+#music {
+    position: absolute;
+    width: .48rem;
+    height: .48rem;
+    right: .2rem;
+    top: .2rem;
+    z-index: 50000;
+    background: url(/img/music.png) no-repeat center bottom / 100%;
+}
+
+#music.play {
+    background-position: center top;
+}

@@ -3,7 +3,7 @@
 <div class="page-bg-6">
 <img class="img-bg-6" src="/img/page3/bg.jpg"/>
 
-<img class="title-6" src="/img/page5/title.png"/>
+<img class="title-6" src="/img/page6/title.png"/>
 
 <img class="font-6" src="/img/page6/font.png"/>
 
@@ -53,9 +53,10 @@
 <div class="btn-11" onclick="openUrl('/point/10-ziben.html')" >点我</div>
 
 
-
+<!--
 <img class="praise-6" src="/img/page6/praise.png" onclick="submitPraise();"/>
 
 <div class="praise-text-6">为昆仑能源点赞</div>
+-->
 
 </div>

@@ -42,6 +42,9 @@
         <div class="swiper-slide">
             <#include "7-page.ftl">
         </div>
+        <div class="swiper-slide">
+            <#include "8-page.ftl">
+        </div>
 
     </div>
     <!-- Add Pagination -->
@@ -50,7 +53,10 @@
     <img class="hart" src="/img/hart.png"></img>
 </div>
 
-
+<audio id="bg-music1" controls="controls" autoplay="autoplay" style="display: none">
+    <source src="/music/tkzc.mp3" />
+</audio>
+<div id="music" class="play" style="visibility: visible; opacity: 1;"></div>
 
 
 <!-- Initialize Swiper -->

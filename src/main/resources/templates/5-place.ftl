@@ -10,10 +10,12 @@
 
 <img class="img-map-5" src="/img/page5/map.png"/>
 
-<img class="title-5" src="/img/page5/title-1.png"/>
+<img class="title-5" src="/img/page5/title.png"/>
+<!--
 <img class="praise-5" src="/img/page6/praise.png" onclick="submitPraise()"/>
 
 <div class="praise-text-5">为昆仑能源点赞</div>
+-->
 <div class="map-service">
         <div class="region-list active postition-2 online-node">
             <div class="area-box"><span class="dot"></span><span class="pulse delay-06"></span>
