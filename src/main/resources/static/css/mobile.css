@@ -175,16 +175,29 @@ body {
 
 #music {
     position: absolute;
-    width: .48rem;
-    height: .48rem;
-    right: .2rem;
-    top: .2rem;
+    width: 2.48rem;
+    height: 2.48rem;
+    right: 1.2rem;
+    top: 1.7rem;
     z-index: 50000;
-    background: url(/img/music.png) no-repeat center bottom / 100%;
 }
 
 #music.play {
-    background-position: center top;
+  -webkit-animation:myfirst1 5s linear infinite;
+}
+
+@-webkit-keyframes myfirst1 {
+	0% {
+	transform:rotate(0deg);
+	//box-shadow:0px 0px 10px #fff;
+}
+50% {
+	transform:rotate(180deg);
+	//box-shadow:0px 0px 45px #fff;
+}
+100% {
+	transform:rotate(360deg);
+	//box-shadow:0px 0px 10px #fff;
 }
 
 

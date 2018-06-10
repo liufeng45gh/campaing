@@ -57,7 +57,7 @@
 <audio id="bg-music1" controls="controls" autoplay="autoplay" style="display: none">
     <source src="/music/tkzc.mp3" />
 </audio>
-<div id="music" class="play" style="visibility: visible; opacity: 1;"></div>
+<img id="music" class="play" style="visibility: visible; opacity: 1;" src="/img/music.png"></img>
 
 
 <!-- Initialize Swiper -->
