@@ -54,7 +54,7 @@
     <img class="hart" src="/img/hart.png"></img>
 </div>
 
-<audio id="bg-music1" controls="controls" autoplay="autoplay" style="display: none">
+<audio id="bg-music1" controls="controls" autoplay="autoplay" style="width:0px;height:0px;">
     <source src="/music/tkzc.mp3" />
 </audio>
 <img id="music" class="play" style="visibility: visible; opacity: 1;" src="/img/music.png"></img>
