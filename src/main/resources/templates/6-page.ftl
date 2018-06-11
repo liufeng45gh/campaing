@@ -46,7 +46,7 @@
 
 </div>
 
-<div class="btn-3" onclick="openUrl('/point/6-jinqiao.html')" >点我</div>
+<div class="btn-3" onclick="openUrl('/point/9-qidian.html')" >点我</div>
 <div class="btn-6" onclick="openUrl('/point/7-guang.html')" >点我</div>
 <div class="btn-7" onclick="openUrl('/point/8-chuangxin.html')" >点我</div>
 <div class="btn-10" onclick="openUrl('/point/6-jinqiao.html')" >点我</div>

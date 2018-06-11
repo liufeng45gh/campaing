@@ -2,15 +2,47 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/ponit.css?v=1.2"/>
+    <script  src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/iscroll.js"></script>
+    <script type="text/javascript" src="/js/demoUtils.js"></script>
 </head>
 <body>
-<div class="point-main">
+<div class="point-main" >
     <img class="img-top" src="/img/point/7-guang-bg.jpg"/>
-    <div class="title">点燃城市之光</div>
-    <img src="/img/point/line.png" class="line-point"/>
-    <div class="content">
-        昆仑能源自2008年进军国内天然气终端综合利用市场以来，从燃气行业后来者跃居国内销量规模榜首。2017年，销气天然气突破200亿立方米，开发运营城镇燃气项目200多个。公司大力实施燃煤锅炉改造，推动工业燃料升级，拥有居民、工业、商业等各类用户近900万户，整体进入哈尔滨、昆明、兰州等省会城市。累计向哈尔滨气超过26.5亿方，为减少PM2.5排放，治理城市雾霾，改善大气质量，作出突出贡献；投资4个亿建设了昆明东、西两条支线，形成覆盖全市的燃气管网系统，历时2年零8个月，先后组织5.8万人次用工，完成了100.58万用户的置换，在创造“昆仑速度”的同时，结束了昆明长达31年的管道人工煤气时代；企地协同发展，极大地改善了兰州能源消费结构，主城区气化率跃升至90%以上，空气质量得到持续改善，百姓齐赞“兰州蓝”。
+    <div id="wrapper">
+        <div id="scroller">
+
+            <div class="title">点燃城市之光</div>
+            <img src="/img/point/line.png" class="line-point"/>
+            <div class="content" >
+                昆仑能源自2008年进军国内天然气终端综合利用市场以来，从燃气行业后来者跃居国内销量规模榜首。2017年，销气天然气突破200亿立方米，开发运营城镇燃气项目200多个。公司大力实施燃煤锅炉改造，推动工业燃料升级，拥有居民、工业、商业等各类用户近900万户，整体进入哈尔滨、昆明、兰州等省会城市。累计向哈尔滨气超过26.5亿方，为减少PM2.5排放，治理城市雾霾，改善大气质量，作出突出贡献；投资4个亿建设了昆明东、西两条支线，形成覆盖全市的燃气管网系统，历时2年零8个月，先后组织5.8万人次用工，完成了100.58万用户的置换，在创造“昆仑速度”的同时，结束了昆明长达31年的管道人工煤气时代；企地协同发展，极大地改善了兰州能源消费结构，主城区气化率跃升至90%以上，空气质量得到持续改善，百姓齐赞“兰州蓝”。
+            </div>
+            <div>&nbsp;</div>
+        </div>
     </div>
+
+
 </div>
+
+<script type="text/javascript">
+
+function loadedInit() {
+    var myScroll;
+
+    //alert("a");
+
+    myScroll = new IScroll('#wrapper', { scrollX: false, scrollY: true, mouseWheel: true });
+
+
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+        capture: false,
+        passive: false
+    } : false);
+
+}
+$(document).ready(function () {
+       loadedInit();
+});
+</script>
 </body>
 </html>

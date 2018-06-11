@@ -2,15 +2,45 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/ponit.css?v=1.2"/>
+    <script  src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/iscroll.js"></script>
+    <script type="text/javascript" src="/js/demoUtils.js"></script>
 </head>
 <body>
 <div class="point-main">
     <img class="img-top" src="/img/point/6-jinqiao-bg.jpg"/>
-    <div class="title">联通海上通道</div>
-    <img src="/img/point/line.png" class="line-point"/>
-    <div class="content">
-        近年来，在我国加快能源结构调整，积极发展绿色低碳经济背景下，昆仑能源先后收购江苏、大连、唐山三座LNG接收站，海上油气通道保障能力进一步增强。“海陆互保”的供气格局基本形成。投产至今，累计接收LNG超过3000万吨。社会减排1.3亿吨CO2，相当于植树造林9.6亿棵，以每户每月用9方天然气计算，可供1000万户家庭使用40年。冬季用气高峰时占到北京用气量47%。2017年冬供期间，中国石油把民生保供作为首要责任，紧急调配海上资源强劲补充管道气缺口，昆仑能源用最大气力共同筑起冬季保供最坚强的保障。累计冬供气化外输量首超80亿方，同比增长68%。海上进口液化天然气首次超过管道进口气量，两项记录均创历史新高。冬季接卸量达600吨，占全年接卸量60%。
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="title">联通海上通道</div>
+            <img src="/img/point/line.png" class="line-point"/>
+            <div class="content">
+                近年来，在我国加快能源结构调整，积极发展绿色低碳经济背景下，昆仑能源先后收购江苏、大连、唐山三座LNG接收站，海上油气通道保障能力进一步增强。“海陆互保”的供气格局基本形成。投产至今，累计接收LNG超过3000万吨。社会减排1.3亿吨CO2，相当于植树造林9.6亿棵，以每户每月用9方天然气计算，可供1000万户家庭使用40年。冬季用气高峰时占到北京用气量47%。2017年冬供期间，中国石油把民生保供作为首要责任，紧急调配海上资源强劲补充管道气缺口，昆仑能源用最大气力共同筑起冬季保供最坚强的保障。累计冬供气化外输量首超80亿方，同比增长68%。海上进口液化天然气首次超过管道进口气量，两项记录均创历史新高。冬季接卸量达600吨，占全年接卸量60%。
+            </div>
+            <div>&nbsp;</div>
+        </div>
     </div>
+
 </div>
+
+<script type="text/javascript">
+
+function loadedInit() {
+    var myScroll;
+
+    //alert("a");
+
+    myScroll = new IScroll('#wrapper', { scrollX: false, scrollY: true, mouseWheel: true });
+
+
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+        capture: false,
+        passive: false
+    } : false);
+
+}
+$(document).ready(function () {
+       loadedInit();
+});
+</script>
 </body>
 </html>

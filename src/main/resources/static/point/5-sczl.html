@@ -2,15 +2,45 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/ponit.css?v=1.2"/>
+    <script  src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/iscroll.js"></script>
+    <script type="text/javascript" src="/js/demoUtils.js"></script>
 </head>
 <body>
 <div class="point-main">
     <img class="img-top" src="/img/point/5-sczl-bg.jpg"/>
-    <div class="title">助力丝绸之路</div>
-    <img src="/img/point/line.png" class="line-point"/>
-    <div class="content">
-        一带一路倡议的实施，赋予丝绸之路新的定义。昆仑能源沿途建设的天然气场站在这条丝路上形成了一道亮丽的风景。具有安全可靠、清洁环保、经济高效、灵活方便等优点的LNG重型卡车，不仅省下了运输成本提高了利润，也为沿线城市减少了尾气污染。昆仑能源沿上海、宁夏、陕西、甘肃、新疆等区域建设了LNG加气站**座，CNG加气站***座，L-CNG加气站***座，累计供气****方，为这条繁忙的丝路注入了绿色新动力，也带来了发展新活力。
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="title">助力丝绸之路</div>
+            <img src="/img/point/line.png" class="line-point"/>
+            <div class="content">
+                一带一路倡议的实施，赋予丝绸之路新的定义。昆仑能源沿途建设的天然气场站在这条丝路上形成了一道亮丽的风景。具有安全可靠、清洁环保、经济高效、灵活方便等优点的LNG重型卡车，不仅省下了运输成本提高了利润，也为沿线城市减少了尾气污染。昆仑能源沿上海、宁夏、陕西、甘肃、新疆等区域建设了LNG加气站**座，CNG加气站***座，L-CNG加气站***座，累计供气****方，为这条繁忙的丝路注入了绿色新动力，也带来了发展新活力。
+            </div>
+            <div>&nbsp;</div>
+        </div>
     </div>
 </div>
+
+
+<script type="text/javascript">
+
+function loadedInit() {
+    var myScroll;
+
+    //alert("a");
+
+    myScroll = new IScroll('#wrapper', { scrollX: false, scrollY: true, mouseWheel: true });
+
+
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+        capture: false,
+        passive: false
+    } : false);
+
+}
+$(document).ready(function () {
+       loadedInit();
+});
+</script>
 </body>
 </html>

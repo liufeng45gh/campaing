@@ -2,15 +2,46 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/ponit.css?v=1.2"/>
+    <script  src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/iscroll.js"></script>
+    <script type="text/javascript" src="/js/demoUtils.js"></script>
 </head>
 <body>
 <div class="point-main">
     <img class="img-top" src="/img/point/4-hunan-bg.jpg"/>
-    <div class="title">共建战略支线</div>
-    <img src="/img/point/line.png" class="line-point"/>
-    <div class="content">
-        自2011年与湖南省政府签订《“气化湖南工程”战略合作框架协议》以来，作为“气化湖南工程”实施主体的昆仑能源湖南公司迅速行动、乘势而为，以支线管道建设为切入点，全力推进“气化湖南”工程。投资新建“气化湖南工程”天然气支线管道工程近500公里，管道气化24个县市，总投资约19亿元。规划的七条支线管道中，长浏、汩罗-平江两条支线管道建设已经完工，还有涟源-新化等五条支线正如火如荼、全力推进。预计到2020年，湖南公司天然气长输管道总长度将突破900公里，年输气量将实现大幅度、跨越式增长，年供气能力可达到17亿立方米。
+
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="title">共建战略支线</div>
+            <img src="/img/point/line.png" class="line-point"/>
+            <div class="content">
+                自2011年与湖南省政府签订《“气化湖南工程”战略合作框架协议》以来，作为“气化湖南工程”实施主体的昆仑能源湖南公司迅速行动、乘势而为，以支线管道建设为切入点，全力推进“气化湖南”工程。投资新建“气化湖南工程”天然气支线管道工程近500公里，管道气化24个县市，总投资约19亿元。规划的七条支线管道中，长浏、汩罗-平江两条支线管道建设已经完工，还有涟源-新化等五条支线正如火如荼、全力推进。预计到2020年，湖南公司天然气长输管道总长度将突破900公里，年输气量将实现大幅度、跨越式增长，年供气能力可达到17亿立方米。
+            </div>
+            <div>&nbsp;</div>
+
+        </div>
     </div>
+
 </div>
+<script type="text/javascript">
+
+function loadedInit() {
+    var myScroll;
+
+    //alert("a");
+
+    myScroll = new IScroll('#wrapper', { scrollX: false, scrollY: true, mouseWheel: true });
+
+
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+        capture: false,
+        passive: false
+    } : false);
+
+}
+$(document).ready(function () {
+       loadedInit();
+});
+</script>
 </body>
 </html>

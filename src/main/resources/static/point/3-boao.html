@@ -2,15 +2,47 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/ponit.css?v=1.2"/>
+    <script  src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/iscroll.js"></script>
+    <script type="text/javascript" src="/js/demoUtils.js"></script>
 </head>
 <body>
 <div class="point-main">
     <img class="img-top" src="/img/point/3-boao-bg.jpg"/>
-    <div class="title">助力生态海南</div>
-    <img src="/img/point/line.png" class="line-point"/>
-    <div class="content">
-        16年前，博鳌亚洲论坛第一次在博鳌小镇举行年会。同年，昆仑能源海南中油深海公司正式成立。16年来，昆仑能源为全岛提供天然气累计约10.18亿方，减排CO2约308万吨，相当于种植绿树2800万棵。与博鳌共同成长起来的海南分公司，在气化海南、助力国际旅游岛、自贸区建设发挥着不可替代的作用，为习近平总书记的“海南情缘”再续新篇。
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="title">助力生态海南</div>
+            <img src="/img/point/line.png" class="line-point"/>
+            <div class="content">
+                16年前，博鳌亚洲论坛第一次在博鳌小镇举行年会。同年，昆仑能源海南中油深海公司正式成立。16年来，昆仑能源为全岛提供天然气累计约10.18亿方，减排CO2约308万吨，相当于种植绿树2800万棵。与博鳌共同成长起来的海南分公司，在气化海南、助力国际旅游岛、自贸区建设发挥着不可替代的作用，为习近平总书记的“海南情缘”再续新篇。
+            </div>
+            <div>&nbsp;</div>
+
+        </div>
     </div>
+
+
 </div>
+
+<script type="text/javascript">
+
+function loadedInit() {
+    var myScroll;
+
+    //alert("a");
+
+    myScroll = new IScroll('#wrapper', { scrollX: false, scrollY: true, mouseWheel: true });
+
+
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+        capture: false,
+        passive: false
+    } : false);
+
+}
+$(document).ready(function () {
+       loadedInit();
+});
+</script>
 </body>
 </html>

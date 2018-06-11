@@ -2,15 +2,48 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/ponit.css?v=1.2"/>
+    <script  src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/iscroll.js"></script>
+    <script type="text/javascript" src="/js/demoUtils.js"></script>
 </head>
 <body>
 <div class="point-main">
     <img class="img-top" src="/img/point/2-changjiang-bg.jpg"/>
-    <div class="title">推动气化长江</div>
-    <img src="/img/point/line.png" class="line-point"/>
-    <div class="content">
-        昆仑能源积极落实党中央关于推进美丽中国建设的部署要求，自觉融入长江开发战略，2013年开始谋划清洁能源在长江流域的应用，积极推进实施“气化长江”工程。通过市场调研和实地调查，联合有关专业院所进行深入研究，形成“长江水系LNG加注体系与布局规划研究”“液化天然气‘气化长江’工程规划研究”成果，以沿海LNG接收站为资源转泊中心，通过建设LNG加注点等方式将LNG直运进江，将LNG船舶加注业务推向长江沿岸城市和内河湖泊，打造海江陆联动LNG终端网络，形成LNG水上交通应用综合优势。
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="title">推动气化长江</div>
+            <img src="/img/point/line.png" class="line-point"/>
+            <div class="content">
+                昆仑能源积极落实党中央关于推进美丽中国建设的部署要求，自觉融入长江开发战略，2013年开始谋划清洁能源在长江流域的应用，积极推进实施“气化长江”工程。通过市场调研和实地调查，联合有关专业院所进行深入研究，形成“长江水系LNG加注体系与布局规划研究”“液化天然气‘气化长江’工程规划研究”成果，以沿海LNG接收站为资源转泊中心，通过建设LNG加注点等方式将LNG直运进江，将LNG船舶加注业务推向长江沿岸城市和内河湖泊，打造海江陆联动LNG终端网络，形成LNG水上交通应用综合优势。
+            </div>
+            <div>&nbsp;</div>
+
+        </div>
     </div>
+
+
 </div>
+
+
+<script type="text/javascript">
+
+function loadedInit() {
+    var myScroll;
+
+    //alert("a");
+
+    myScroll = new IScroll('#wrapper', { scrollX: false, scrollY: true, mouseWheel: true });
+
+
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+        capture: false,
+        passive: false
+    } : false);
+
+}
+$(document).ready(function () {
+       loadedInit();
+});
+</script>
 </body>
 </html>
