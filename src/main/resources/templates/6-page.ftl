@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="/css/6-page.css"/>
+<link rel="stylesheet" href="/css/6-page.css?v=1.0"/>
 
 <div class="page-bg-6">
-<img class="img-bg-6" src="/img/page3/bg.jpg"/>
+<img class="img-bg-6" src="/img/page6/bg.jpg"/>
 
 <img class="title-6" src="/img/page6/title.png"/>
 

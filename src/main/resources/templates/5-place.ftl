@@ -60,7 +60,7 @@
 
 </div>
 
-<div class="btn-8" onclick="openUrl('/point/1-xiongan.html?v=1.1')" >点我</div>
+<div class="btn-8" onclick="openUrl('/point/1-xiongan.html?v=1.3')" >点我</div>
 <div class="btn-2" onclick="openUrl('/point/5-sczl.html')" >点我</div>
 <div class="btn-4" onclick="openUrl('/point/3-boao.html')" >点我</div>
 <div class="btn-5" onclick="openUrl('/point/4-hunan.html')" >点我</div>

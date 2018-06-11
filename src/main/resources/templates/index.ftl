@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>今天，昆仑能源向您发出邀请</title>
+    <title>中国石油开放日 走近天然气终端利用的昆仑旗舰</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
 
     <!-- Link Swiper's CSS -->

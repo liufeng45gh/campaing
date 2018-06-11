@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/css/7-page.css"/>
 
 <div class="page-bg-7">
-<img class="img-bg-7" src="/img/page3/bg.jpg"/>
+<img class="img-bg-7" src="/img/page7/bg.jpg"/>
 
 <img class="img-bg-7-border" src="/img/page7/border.jpg"/>
 

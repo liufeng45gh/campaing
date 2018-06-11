@@ -10,7 +10,7 @@ if(lineLink.indexOf("?") != -1)
 //var lineLink = "http://vote.dbdbd.cn/appreciate/index";
 //var lineLink = webHref.substring(0,pos);
 var shareContent = "昆仑能源2018企业公众开放日6月15日正式开启!";
-var shareTitle = "今天，昆仑能源向您发出邀请!";
+var shareTitle = "中国石油开放日 走近天然气终端利用的昆仑旗舰!";
 var appid = "wx41dbe3ee3f386699";
   
 $(document).ready(function() {
