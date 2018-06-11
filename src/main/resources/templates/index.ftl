@@ -16,6 +16,7 @@
     <script  type="text/javascript" src="/js/wx-share.js?version=1.0"></script>
     <script src="/js/common.js"></script>
 
+
 </head>
 <body>
 <!-- Swiper -->
@@ -72,6 +73,8 @@
   </script>
 
 <script src="/js/campaign.js"></script>
+
+
 
 
 </body>
