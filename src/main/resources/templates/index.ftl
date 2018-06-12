@@ -41,11 +41,13 @@
             <#include "6-page.ftl">
         </div>
 
-        <div class="swiper-slide">
-            <#include "8-page.ftl">
-        </div>
+
         <div class="swiper-slide">
             <#include "7-page.ftl">
+        </div>
+
+        <div class="swiper-slide">
+            <#include "8-page.ftl">
         </div>
 
     </div>

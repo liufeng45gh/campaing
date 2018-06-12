@@ -131,7 +131,7 @@ body {
      /* margin-top: 1.2rem; */
      margin-bottom: 1.0rem;
      margin-top: 21rem;
-     color: rgb(221,66,15);
+     color: #e65100;
      width: 100%;
      font-weight: bold;
 }
@@ -141,7 +141,7 @@ body {
       padding-left: 1rem;
       padding-right: 1rem;
       top: 21rem;
-      color: rgb(140,75,0);
+      color: #ad7a23;
       line-height: 2rem;
       margin-bottom: 2rem;
 }
